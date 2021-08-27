@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // variable code and assign it a value of 123. We then check if code exactly
 // equals the number 123. code does equal 123, so we assign secret the value
 // 'super' and then double the value of code (to 246). We then check if the
-// variable code is greater than 250. Since code = 246, this is not true and we
+// variable code is greater than 250. Since code === 246, this is not true and we
 // don't change the variable secret to 'duper'.
 // We then console.log the value of secret, which is 'super'.
 
@@ -81,7 +81,7 @@ console.log(secret)
 // 30. Neither are true, so we don't print 'What are your hobbies?' to the console
 // log. We then check if isStudent is true. It is, so we print 'Welcome to Prime!'
 // to the console log. Since that last condition was satisfied, we don't execute
-// the action in the else statement.
+// the action in the final else statement.
 
 //CODE
 /*
@@ -170,8 +170,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX: this if statement checks if age is less than or equal to minAge. 
-// Beacuse age = 21, 'no entry' will be printed to the console. To fix, we should
+// FIX: this if statement checks if age is less than or equal to minAge.
+// Beacuse age = 21 which is <= 21, 'no entry' will be printed to the console. To fix, we should
 // change the if statement to
 // if(minAge >= age)
 // then change the action to
